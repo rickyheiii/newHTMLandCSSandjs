@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML NOTE</title>
+    <link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+    <div class="header">
+        <h1>HTML NOTE</h1>
+        <P>This is html word</P>
+        <ul>
+            <li><a href="#">Hone</a></li>
+            <li><a href="CSS.HTML">CSS</a></li>
+            <li><a href="https://www.baidu.com/">Links</a></li>
+            <li><a href="名人.html">名人</a></li>
+            <li><a href="zhucebiao.html"> 注册页面</a></li>
+            <li><a href="web3.html">电影展</a></li>
+            <li><a href="math/web5.html">待办事项</a></li>
+        </ul>       
+    </div>
+    <div class="content">
+        <h2 id="lecture_notes">开始</h2>
+        <dl>
+            <dt>HTML&lt; a &gt;标签:</dt>
+            
+            <dd>
+                <blockquote>&it;a&gt;
+                    标签定义超链接，用于从一张页面链接到另一张页面。 
+                    &lt;a&gt;元素最重要的属性是 href 属性，
+                    它指示链接的目标。 在所有浏览器中，链接的默认外观是：
+                未被访问的链接带有下划线而且是蓝色的 已被访问的链接带有下划线而且是紫色的 
+                活动链接带有下划线而且是红色的。
+                </blockquote>
+                <b>
+                    实例
+                </b>
+                <pre>
+                    &lt;html&gt;
+                     &lt;head&gt;
+                     &lt;/head&gt;
+                     &lt;body&gt;
+                     &lt;a href="https://www.w3school.com.cn/index.html"&gt;3wschool&lt;/a&gt;
+                     &lt;/body&gt;
+                     &lt;/html&gt;
+                     <p>动手做一下吧</p>
+                     <a class="r" href="https://www.w3school.com.cn/index.html">查看结果</a>
+                     
+                </pre>
+
+            </dd>
+            <hr>
+            
+                <dt>
+                    HTML&lt;img&gt; 标签:
+                </dt>
+            <dd>
+                <blockquote>
+                    img 元素向网页中嵌入一幅图像。
+                请注意，从技术上讲，&lt;img&gt; 标签并不会在网页中插入图像，而是从网
+                页上链接图像。&lt;img&gt; 标签创建的是被引用图像的占位空间。
+                &lt;img&gt; 标签有两个必需的属性：<q>src 属性 </q><q> alt 属性</q>。<br>
+                (1)<br>&lt;img&gt;标签的 src 属性是必需的。它的值是图像文件的 URL，也就是引用该图像的文件的的绝对路径或相对路径。
+                </blockquote>
+                <b>实例:</b>
+                <pre>
+                    &lt;html&gt;
+                    &lt;body&gt;
+                    &lt;p&gt;
+                    夕阳：
+                    &lt;img src="/i/eg_tulip.jpg" /&gt;
+                    &lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                <a href="img.html">查看结果</a>
+            </dd>
+            <hr>
+            <dt>
+                CSS 背景:
+            </dt>
+            <dd>
+                <blockquote>
+                    可以使用 background-color 属性为元素设置背景色。这个属性接受任何合法的颜色值。
+                这条规则把元素的背景设置为灰色：
+                p {background-color: gray;}
+                如果您希望背景色从元素中的文本向外少有延伸，只需增加一些内边距：
+                p {background-color: gray; padding: 20px;}
+                </blockquote>
+                <b>实例:</b>
+                <pre>
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;style type="text/css"&gt;
+                    body {background-color: yellow}
+                    h4 {background-color: #00ff00}
+                    &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;h4&gt;这是标题h4，设置为黄色背景&lt;/h4&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                <a href="CSS背景.html">查看结果</a>
+
+                
+
+            </dd>
+            <hr>
+            <dt>CSS字体:</dt>
+            <dd>
+                <blockquote>
+                    在 CSS 中，有两种不同类型的字体系列名称： 通用字体系列 - 
+                    拥有相似外观的字体系统组合（比如 "Serif" 或 "Monospace"）
+                     特定字体系列 - 具体的字体系列（比如 "Times" 或 "Courier"）
+                      除了各种特定的字体系列外，CSS 定义了 5 种通用字体系列： 
+                      Serif 字体 Sans-serif 字体 Monospace 字体 Cursive 字体 Fantasy 字体
+                </blockquote>
+                <b>实例:</b>
+                <pre>
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;style type="text/css"&gt;
+                    h5 {font-family:cursive;}
+                    h6 {font-family:fantasy;}
+                    &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;h5&gt;这是应用了cursive样式的字体&lt;/h5&gt;
+                    &lt;h6&gt;这是应用了fantasy样式的字体&lt;/h6&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                <b>查看结果:</b>
+                <h5>这是应用了cursive样式的字体</h5>
+                <h6>这是应用了fantasy样式的字体</h6>
+            </dd>
+            <dl>
+                <h2 id="labs">大作业</h2>
+            </dl>
+            <dd>
+                <pre>2020-2021 学年第二学期信息工程学院
+
+                    《Web 前端应用开发》期末作品要求
+                    作品要求：
+                    1、选择健康积极的主题制作网站，整个网站10个页面，1 个首页，9个子页；
+                    2、页面布局优先考虑用可伸缩的（弹性盒子）；
+                    3、首页要有导航栏，每个栏目对应 1 个子页面，能通过超链接跳转访问，子页面风格统一；
+                    4、所有页面内容丰富、布局合理、颜色协调、美观大方;
+                    5、所有文件保存在以“班级学号姓名”为文件夹中（如 19 计算机应用技术
+                    1 班 00 号张三），6 月 27日前以宿舍为单位发给学委；
+                    6、第17周两次课进行作品汇报；
+                    7、严禁抄袭，一经发现，成绩计为零分。
+                    
+                    评分细则
+                    序号	评分项	分值
+                    1	主题鲜明、健康，页面内容丰富	35
+                    2	版面结构合理、清晰，操作便捷	25
+                    3	色彩搭配协调、美观，合理运用多媒体素材	15
+                    4	有必要的页面特效，特效应用恰当（要有css+js）	25
+                    合计	100
+                    
+                    
+                    过程安排：
+                    
+                    1.第13周确定主题，并查找相关资料；
+                    2.第14周搭建网站框架和主要档目划分；
+                    3.第15-16周网站详细内容的设计；
+                    4.第16周网站完成并测试，将源文化和录屏文件打包提交学委。
+                    </pre>
+            </dd>
+
+            
+        </dl>
+    </div>
+    <div class="list">
+        <h3>CATEGORIES</h3>
+        <ul>
+            <li><a href="#lecture_notes">开始</a></li>
+            <li><a href="#labs">大作业</a></li>
+        </ul>
+    </div>
+</body>
+</html>

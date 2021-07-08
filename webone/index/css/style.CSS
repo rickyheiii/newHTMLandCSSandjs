@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: black;
+}
+#one{
+    float:left; 
+}
+.two{
+    text-align: center;
+}
+#e{
+    float: right;
+}
+p{
+    text-align: center;
+}
+
+
+.parent{
+    margin: auto;
+    
+}
+div{
+    text-align:center;
+    height: 50;
+    width: 50;
+    
+}
+.ss{
+    font: bold 30px'微软雅黑';
+}
+.blod{
+    font-size: bold 30px;
+}

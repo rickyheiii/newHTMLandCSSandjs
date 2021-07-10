@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-size: 14px;
+}
+.container{
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+header{
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+
+.one {
+    
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    float: right;
+    text-align: center;
+    line-height: 200px;
+
+
+    
+        
+}
+.content aside{
+    box-sizing: border-box;
+    float: left;
+}
+.parent{
+    display: flex;
+  }
+  .one{
+    width: 200px;
+    height: 100%;
+    background: red;
+    flex: 1;
+  }
+  .two{
+    height: 200px;
+    width: 200px;
+    background:yellow;
+    text-align: center;
+    line-height: 200px;
+}
+
+
